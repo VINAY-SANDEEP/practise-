@@ -1,12 +1,23 @@
 import java.util.*;
 public class G {
     public static void main(String[] args) {
-        Vector v1 = new Vector();
-        v1.add("vishnu");
-        v1.add("priya");
-        v1.add("surekha");
-        v1.add("senha");
-        v1.add("yavru");
-        System.err.println(v1);
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(0);
+        list.add(2);
+        list.add(4);
+        list.add(6);
+        list.add(8);
+        System.out.println(list);
+        System.out.println(list.get(0));
+        System.out.println(list.set(0, 5));
+        System.out.println(list.remove(3));
+        System.out.println(list.size());
+        System.out.println("printing");
+        for (int i = 0; i < list.size(); i++) {
+          System.out.println(list.get(i));   
+        }
+       System.out.println();
+       Collections.sort(list);
+       System.out.println(list);
     }
 }
