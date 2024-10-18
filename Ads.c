@@ -1,5 +1,4 @@
-
-#include <stdio.h>
+include <stdio.h>
 int size = 0;
 void swap(int *a, int *b)
 {
@@ -86,4 +85,5 @@ int main()
   printf("After deleting an element: ");
 
   printArray(array, size);
-} 
+}
+  
